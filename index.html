@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,6 +22,7 @@
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#one">Who we are</a></li>
+							<li><a href="#five">Specializes in</a></li>
 							<li><a href="#two">What we do</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
@@ -50,12 +52,91 @@
 OUR GOAL IS TO PROVIDE SPOTLESS CLEANING</h2>
 									<p>We are a team of enthusiastic individuals who work tirelessly towards providing a cleaner space at an affordable price point. We believe that a spick and span house makes a happy home. For that reason, we focus on providing top-notch customer service and quality cleaners. Book us now and relax! We will make sure that we will make your home sparkle and shine.</p>
 									
+									
+									
+									<p><strong>Our previous work </strong> 
+									<ul>
+										<li> </li>
+										
+										
+										
+									</ul>
+									</p>
 								</div>
 							</div>
 						</section>
 						
 					</section>
 
+				<!-- Two -->
+					<section id="five" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>SPECIALIZATIONS </h2>
+							<p></p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>DEEP CLEANING</h3>
+									<p>
+									<ul>
+										<li> <strong>Dust and vacuum: </strong> We clean Hard-to-reach ledges, windows, light fixtures and above cabinets. Basically, all the places that are too hard to reach during your normal cleaning routine.</li>
+										<li> <strong>Faucets: </strong> We De-scale faucets / shower-heads throughout the home with vinegar.</li>
+										<li> <strong>Vent Covers:  </strong>We remove HVAC vent covers and wash them.</li>
+										<li> <strong>Windows: </strong> We vacuum windowsills and window tracks and remove cobwebs and bugs from window screens</li>
+										<li> <strong>Doors: </strong> We wipe down doors and door frames for fingerprints and smudges.</li>
+										<li> <strong>Garbage Cans: </strong> We wipe out and sanitize garbage cans, recycling bins and wastebaskets.</li>
+										<li> <strong>Blinds: </strong> We give your blinds a deep clean by spraying them with vinegar and scrubbing them down.</li>
+										<li> <strong>Couch & Chairs: </strong> We remove all cushions and vacuum the creases where pet hair and popcorn love to call home.</li>
+										
+									</ul>
+									</p>
+								</section>
+								<section>
+									<span class="icon major fa-lock"></span>
+									<h3>SPECIALISED KITCHEN APPLIANCES, OVEN AND STOVETOP CLEANING</h3>
+									<p>
+										<li> <strong>Oven: </strong> Before you crank up the heat on your “self-cleaning” oven, let’s get out all the stuff that can be a fire hazard.</li>
+										<li> <strong>Stovetop:  </strong>We remove the pot grates from the stovetop and soak in hot soapy water.</li>
+										<li> <strong>Microwave: </strong> We grease that elbow, loosen the food splatters</li>
+										<li> <strong>Toaster:  </strong>We remove the fire hazard (also known as breadcrumbs) </li>
+										<li> <strong>Refrigerator/Freezer:  </strong>We clean  rubber gasket around the door seals with warm soapy water and then disinfect. </li>
+									</p>
+								</section>
+								
+								
+							</div>
+							<ul class="actions">
+								
+							</ul>
+						</div>
+					</section>
+
+
+<!-- six 
+					<section id="six" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<div class="w3-content" style="max-width:1200px">
+							  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%;display:none">
+							  <img class="mySlides" src="images/20190206_204150.jpg" style="width:100%">
+							  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%;display:none">
+
+							  <div class="w3-row-padding w3-section">
+								<div class="w3-col s4">
+								  <img class="demo w3-opacity w3-hover-opacity-off" src="img_nature_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+								</div>
+								<div class="w3-col s4">
+								  <img class="demo w3-opacity w3-hover-opacity-off" src="img_snow_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+								</div>
+								<div class="w3-col s4">
+								  <img class="demo w3-opacity w3-hover-opacity-off" src="img_mountains_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+								</div>
+							  </div>
+							</div>
+
+						</div>
+					</section>
+-->
+					
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
@@ -164,9 +245,14 @@ OUR GOAL IS TO PROVIDE SPOTLESS CLEANING</h2>
 										<li>
 											<h3>Email</h3>
 											tpcc.servicedesk@gmail.com
-										</li>										
+										</li>
+										
+										
 									</ul>
+									
+									
 								</section>
+								<p></p>
 							</div>
 						</div>
 					</section>
@@ -190,6 +276,27 @@ OUR GOAL IS TO PROVIDE SPOTLESS CLEANING</h2>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function currentDiv(n) {
+				  showDivs(slideIndex = n);
+				}
+
+				function showDivs(n) {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("demo");
+				  if (n > x.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = x.length}
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+				  }
+				  x[slideIndex-1].style.display = "block";
+				  dots[slideIndex-1].className += " w3-opacity-off";
+				}
+				</script>
 
 	</body>
 </html>
